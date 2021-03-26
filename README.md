@@ -28,7 +28,10 @@ TODO - Quick description
 ├── README.md             This file
 ├── conda-env.yml         Conda environment definition
 ├── results/              Contains final results and visualizations
-└── src/                  Contains source files
+├── src/                  Contains source files
+├── data/                 Contains datasets 
+└── reports/              Contains reports
+
 ```
 
 ## Links
