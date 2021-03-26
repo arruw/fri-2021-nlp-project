@@ -27,8 +27,12 @@ TODO - Quick description
 ├── .gitignore            Git ignore config
 ├── README.md             This file
 ├── conda-env.yml         Conda environment definition
+├── data/                 Contains datasets 
+├── reports/              Contains reports
 ├── results/              Contains final results and visualizations
 └── src/                  Contains source files
+
+
 ```
 
 ## Links
