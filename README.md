@@ -1,4 +1,4 @@
-# Offensive language exploratory analysis
+# Cross-Lingual Offensive Language Identification
 
 Authors: Nikolina Grabovica, Selma Halilčević, Matjaž Mav
 
