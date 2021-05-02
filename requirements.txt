@@ -137,3 +137,5 @@ Werkzeug==1.0.1
 widgetsnbextension==3.5.1
 xxhash==2.0.2
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+yellowbrick==1.2
+twython==3.8.2
