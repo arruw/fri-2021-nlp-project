@@ -20,13 +20,16 @@ TODO - Quick description
 - [Conda](https://docs.conda.io/en/latest/miniconda.html)
 
 ## Installation
-- `$ conda env create -f conda-env.yml`
+- `$ conda create --name nlp --file requirements.txt`
+- `$ conda activate nlp`
+- Make sure that jupyter notebooks are run with repository root as working directory
+- Download trained model checkpoints from here: TODO
 
 ## Folder structure
 ```txt
 ├── .gitignore            Git ignore config
 ├── README.md             This file
-├── conda-env.yml         Conda environment definition
+├── requirements.txt      Conda environment definition
 ├── data/                 Contains datasets 
 ├── reports/              Contains reports
 ├── results/              Contains final results and visualizations
