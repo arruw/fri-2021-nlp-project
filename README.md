@@ -12,7 +12,9 @@ Course: Natural Language Processing 2020/2021
 
 ## Description
 
-TODO - Quick description
+In this short paper we reviewed a few publicly available datasets and a few different methods for offensivelanguage identification. We explored traditional methods using handcrafted features, contextual embeddings andembedding alignment methods and current state of the art transformer models.
+
+Report: [report.pdf](report.pdf)
 
 ---
 
@@ -43,6 +45,3 @@ TODO - Quick description
 
 
 ```
-
-## Links
-- Overleaf report: https://www.overleaf.com/read/jypncsrbgmmc
