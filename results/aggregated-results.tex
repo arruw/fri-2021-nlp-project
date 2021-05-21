@@ -1,39 +1,39 @@
-\begin{tabular}{lrlrrr}
+\begin{tabular}{llrrrr}
 \toprule
-{} &  recall &                   model\_name &    f1 &  precision &  roc\_auc \\
+{} &                        Model &  F1 &  Pr &  Re & AUC \\
 \midrule
-0  &   0.567 &           LogReg-MMHS150K-en & 0.456 &      0.381 &    0.660 \\
-1  &   0.250 &           RanFor-MMHS150K-en & 0.319 &      0.439 &    0.623 \\
-2  &   0.000 &            Dummy-MMHS150K-en & 0.000 &      0.000 &    0.500 \\
-3  &   0.788 &              LogReg-HASOC-en & 0.508 &      0.375 &    0.748 \\
-4  &   0.042 &          LogReg-SentiNews-si & 0.073 &      0.292 &    0.508 \\
-5  &   0.378 &  LogReg-SentiNews-si-aligned & 0.391 &      0.405 &    0.517 \\
-6  &   0.361 &              RanFor-HASOC-en & 0.443 &      0.575 &    0.724 \\
-7  &   0.159 &          RanFor-SentiNews-si & 0.216 &      0.338 &    0.473 \\
-8  &   0.009 &  RanFor-SentiNews-si-aligned & 0.017 &      0.273 &    0.478 \\
-9  &   0.791 &              T5-RedditGab-en & 0.841 &      0.897 &    0.869 \\
-10 &   0.285 &              T5-SentiNews-si & 0.349 &      0.453 &    0.518 \\
-11 &   0.767 &                      T5-X-en & 0.829 &      0.903 &    0.859 \\
-12 &   0.034 &                      T5-X-si & 0.063 &      0.462 &    0.503 \\
-13 &   0.000 &             mT5-RedditGab-en & 0.000 &      0.000 &    0.500 \\
-14 &   0.000 &             mT5-SentiNews-si & 0.000 &      0.000 &    0.500 \\
-15 &   0.000 &                     mT5-X-en & 0.000 &      0.000 &    0.500 \\
-16 &   0.000 &                     mT5-X-si & 0.000 &      0.000 &    0.500 \\
-17 &   0.865 &             BERT-HASOC-en-en & 0.644 &      0.513 &    0.888 \\
-18 &   0.272 &             BERT-HASOC-en-de & 0.243 &      0.219 &    0.652 \\
-19 &   0.007 &             BERT-HASOC-en-hi & 0.013 &      0.500 &    0.582 \\
-20 &   0.043 &   BERT-HASOC-en-SentiNews-si & 0.079 &      0.452 &    0.570 \\
-21 &   0.826 &            mBERT-HASOC-en-en & 0.623 &      0.500 &    0.865 \\
-22 &   0.588 &            mBERT-HASOC-en-de & 0.392 &      0.294 &    0.715 \\
-23 &   0.279 &            mBERT-HASOC-en-hi & 0.375 &      0.571 &    0.577 \\
-24 &   0.025 &  mBERT-HASOC-en-SentiNews-si & 0.048 &      0.667 &    0.578 \\
-25 &   0.747 &                    BERT-X-en & 0.627 &      0.540 &    0.833 \\
-26 &   0.000 &                    BERT-X-de & 0.000 &      0.000 &    0.566 \\
-27 &   0.845 &                    BERT-X-hi & 0.675 &      0.562 &    0.738 \\
-28 &   0.752 &                    BERT-X-si & 0.673 &      0.610 &    0.797 \\
-29 &   0.885 &                   mBERT-X-en & 0.572 &      0.422 &    0.846 \\
-30 &   0.022 &                   mBERT-X-de & 0.040 &      0.214 &    0.666 \\
-31 &   0.861 &                   mBERT-X-hi & 0.728 &      0.630 &    0.832 \\
-32 &   0.804 &                   mBERT-X-si & 0.682 &      0.593 &    0.819 \\
+0  &           LogReg-MMHS150K-en & .46 & .38 & .57 & .66 \\
+1  &           RanFor-MMHS150K-en & .32 & .44 & .25 & .62 \\
+2  &            Dummy-MMHS150K-en & .00 & .00 & .00 & .50 \\
+3  &              LogReg-HASOC-en & .51 & .37 & .79 & .75 \\
+4  &          LogReg-SentiNews-si & .07 & .29 & .04 & .51 \\
+5  &  LogReg-SentiNews-si-aligned & .39 & .41 & .38 & .52 \\
+6  &              RanFor-HASOC-en & .44 & .57 & .36 & .72 \\
+7  &          RanFor-SentiNews-si & .22 & .34 & .16 & .47 \\
+8  &  RanFor-SentiNews-si-aligned & .02 & .27 & .01 & .48 \\
+9  &              T5-RedditGab-en & .84 & .90 & .79 & .87 \\
+10 &              T5-SentiNews-si & .35 & .45 & .28 & .52 \\
+11 &                      T5-X-en & .83 & .90 & .77 & .86 \\
+12 &                      T5-X-si & .06 & .46 & .03 & .50 \\
+13 &             mT5-RedditGab-en & .00 & .00 & .00 & .50 \\
+14 &             mT5-SentiNews-si & .00 & .00 & .00 & .50 \\
+15 &                     mT5-X-en & .00 & .00 & .00 & .50 \\
+16 &                     mT5-X-si & .00 & .00 & .00 & .50 \\
+17 &             BERT-HASOC-en-en & .64 & .51 & .86 & .89 \\
+18 &             BERT-HASOC-en-de & .24 & .22 & .27 & .65 \\
+19 &             BERT-HASOC-en-hi & .01 & .50 & .01 & .58 \\
+20 &   BERT-HASOC-en-SentiNews-si & .08 & .45 & .04 & .57 \\
+21 &            mBERT-HASOC-en-en & .62 & .50 & .83 & .87 \\
+22 &            mBERT-HASOC-en-de & .39 & .29 & .59 & .71 \\
+23 &            mBERT-HASOC-en-hi & .38 & .57 & .28 & .58 \\
+24 &  mBERT-HASOC-en-SentiNews-si & .05 & .67 & .02 & .58 \\
+25 &                    BERT-X-en & .63 & .54 & .75 & .83 \\
+26 &                    BERT-X-de & .00 & .00 & .00 & .57 \\
+27 &                    BERT-X-hi & .68 & .56 & .84 & .74 \\
+28 &                    BERT-X-si & .67 & .61 & .75 & .80 \\
+29 &                   mBERT-X-en & .57 & .42 & .89 & .85 \\
+30 &                   mBERT-X-de & .04 & .21 & .02 & .67 \\
+31 &                   mBERT-X-hi & .73 & .63 & .86 & .83 \\
+32 &                   mBERT-X-si & .68 & .59 & .80 & .82 \\
 \bottomrule
 \end{tabular}
